@@ -118,10 +118,10 @@ class _AuthScreenState extends State<AuthScreen> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 const SizedBox(height: 40),
-                _inputTextField(const Icon(Icons.login), "ЛОГІН",
+                _inputTextField(const Icon(Icons.login), "login",
                     loginTextController, false),
                 const SizedBox(height: 20),
-                _inputTextField(const Icon(Icons.lock), "ПАРОЛЬ",
+                _inputTextField(const Icon(Icons.lock), "password",
                     passwordTextController, true),
                 const SizedBox(height: 15),
                 Row(
